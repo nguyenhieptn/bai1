@@ -1,0 +1,14 @@
+body{
+	background-color: #34a56c;
+}
+.wrapper{
+	border: 2px;
+	width: 200px;
+	height: 200px;
+}
+form{
+	width: 300px;
+	margin: 10px;
+	border: 2px;
+	box-shadow: 5px 5px 5px red;
+}
