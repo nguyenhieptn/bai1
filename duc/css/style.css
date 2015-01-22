@@ -1,0 +1,205 @@
+body{font-family: 'Sintony', sans-serif;}
+.wrap{
+width:100%;
+clear:both;
+}
+.logo{
+	margin: 10px 0px 0px 0px;
+}
+.logo span.slogen{
+	margin:110px 0px 0px 4px;
+	font-size: 16px;
+}
+.icon{
+	padding:105px 0 0 85px;
+}
+.icon ul.social li{
+	float:left;
+}
+.nav-main{
+	background: #ffa71d;
+	height:62px;
+	margin-bottom:-30px;
+	border-radius:5px;
+}
+
+ul.nav li{
+	height:40px;
+	padding:10px 10px;
+	margin:10px 0px;
+	line-height:12px;
+	border-right: dotted 2px #FFF;
+
+}
+ul.nav li:last-child{
+	border: none;
+}
+ul.nav  li  a{
+	color: #FFF;
+	padding: 0px 10px;
+
+}
+
+.login{
+	margin-top:-10px;
+
+}
+.btn-login{
+    background: none repeat scroll 0 0 #4683ae;
+    box-shadow: 2px 1px 1px #9f751c;
+    font-weight: bold;
+    width: 220%;
+	color: #fff;
+}
+/**********section banner**************/
+section#banner{
+	background: #6ba3d6 repeat-x;
+	padding-top: 10px;
+	margin-top: -20px;
+}
+section#banner .block{
+	margin-top: 30px;
+	background: url(../images/bg-baner.jpg) no-repeat bottom right;
+}
+section#banner .container{
+	background: url(../images/banner.jpg) no-repeat left bottom;
+}
+#banner span#title-des{
+	font-size: 22px;
+	color:#fff;
+	line-height: 32px;
+}
+#banner ul{
+	margin:25px 0 15px 0!important;
+	padding-left:0px;
+}
+#banner ul li{
+	display:inline-block;
+	line-height: 20px;
+	color:#fff;
+	font-size: 14px;
+	margin:5px 0px 0px 0px;
+}
+#banner ul li:last-child{
+	margin:10px 0px;
+}
+#banner ul li i{
+	margin-right: 10px;
+}
+section#banner .btn-sign{
+	background:#ffa51c;
+	color:#fff;
+	width: 100%;
+}
+section#banner .head-login{
+	background: #4381ad;
+}
+.input-login{
+	background: #fff;
+	border-radius: 10px;
+	padding: 0 14px 15px;
+}
+
+section#banner .form-login .user{
+	padding-left:35px;
+background: url(../images/user.jpg) no-repeat;
+
+}
+section#banner .form-login .pass{
+	padding-left: 35px;
+background: url(../images/pass.jpg) no-repeat;
+}
+.form-login{
+	border-radius: none;
+}
+.btn-loged{
+	margin: 15px 0px 10px 0px ;
+}
+.btn-log{
+background: url(../images/bglogin.jpg) #ffa71d no-repeat 10px 10px;
+text-indent: 20px;
+width: 40%;
+border-radius: none;
+color: #fff;
+}
+.title-login{
+	background: #4281ac;
+	color:#fff;
+	border-radius: 10px 10px 0px 0px;
+	font-weight: bold;
+}
+.text{
+	padding:20px 0px 20px 10px;
+}
+.images{
+padding:20px 0px;
+}
+.form-login{
+	
+	 padding: 42px 20px 60px;
+
+}
+/**************section#video***********************/
+section#video{
+	background: #fafafa;
+}
+section#video .container{
+	background:#fff;
+	position:relative;
+	top:-17px;
+}
+section#video .video-content{
+	padding:57px 40px 62px 50px;
+	border:1px solid #6b8ebb;
+	border-top:1px solid #6b8ebb;
+	border-right:1px solid #e3e1e1;
+	border-left:1px solid #e3e1e1;
+	border-bottom:2px solid #e3e1e1;
+
+}
+section#video .sample{
+	padding-bottom:34px;
+	font-size: 18px;
+	width: 54%;
+	line-height: 30px;
+}
+section#video .des-video{
+	padding-top: 105px;
+}
+section#video .des-video span{
+	font-size: 18px;
+	padding-bottom:15px;
+}
+section#video .des-video p{
+	line-height: 25px;
+	color:#a3a3a3;
+}
+footer{
+	border-top:12px solid #e1e1e1;
+	text-align: center;
+	padding-top: 40px;
+	position: relative;
+	top:20px;
+}
+footer .img{
+
+}
+@media (min-width: 1200px) {
+	.container{
+	max-width:970px;
+	}
+}
+@media (max-width: ){
+	.main-nav ul li{
+		padding:0px 11px;
+	}
+}
+@media(max-width: 480px){
+	.icon{
+		padding:10px 146px 0px 0px;
+	}
+	.logo span.slogen{
+	margin:10px 0px 0px 4px;
+	}
+
+}
