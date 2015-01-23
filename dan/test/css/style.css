@@ -1,20 +1,35 @@
 body{
 	background-color: #34a56c;
 }
-.wrapper{
-	border: 2px;
-	width: 200px;
-	height: 200px;
+#content{
+	background-color: #6ba3d6;
+	color: #fff;
+}
+#content #module_login{
+	color: #141414;
+	background-color: #fff;
+	border-radius: 10px;
+}
+#title_des{
+
+}
+.tick{
+	padding-right: 10px;
+}
 }
 form{
-	width: 300px;
+	width: 250px;
 	margin: 10px;
-	border: 2px;
-	box-shadow: 5px 5px 5px red;
+	border: 1px;
+	background-color: #fff;
+}
+#title_login{
+	background-color: #4683ae;
+	color: #fff;
 }
 nav{
 	height: 40px;
-	background-color: black;
+	background-color: #ffa71d;
 }
 nav ul{
 	list-style: none;

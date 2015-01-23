@@ -15,100 +15,119 @@
 		<header>
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-4">
-						<h3>this is header</h3>
+					<div id="main_logo" class="col-xs-12 col-sm-8 col-md-9 pull-left">
+						<img src="img/logo.jpg" alt="">
+						<span><b>Your Stock Market Coach</b></span>
+					</div>
+					<div id="sub_logo" class="col-xs-12 col-sm-4 col-md-3 pull-right">
+						<div id="fb" class="logo_border">
+							<img src="img/fb.png" alt="">
+						</div>
+						<div id="tw" class="logo_border">
+							<img src="img/tw.png" alt="">
+						</div>
+						<div id="ytb" class="logo_border">
+							<img src="img/youtube.png" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</header><!--End Header -->
-		<nav>
-			<ul>
-				<li><a href="http://google.com.vn">Home</a></li>
-				<li><a href="http://24h.com.vn">About</a></li>
-				<li><a href="http://dantri.com.vn">Contact</a></li>
-				<li><a href="http://zing.vn">Service</a></li>
-			</ul>
-		</nav><!--End Nav-->
-		<div class="main">
-			<form action="method" role="form">
-							<div class="formdk">
-								<label for="name">Username</label>
-								<input type="text" class="form-control" id="name" placeholder="Username">
+		<div id="nav" class="col-xs-12 col-sm-12 col-md-12">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse-1"></button>
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</div>
+					<div class="navbar collapse-navbar">
+						<ul class="nav navbar-nav">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Trading Styles</a></li>
+							<li><a href="#">What to expects</a></li>
+							<li class="blog">
+					          	<a href="#" class="Dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog<span class="caret"></span></a>
+					          	<ul class="dropdown-menu" role="menu">
+					          		<li><a href="#">Blog 1</a></li>
+					          		<li><a href="#">Blog 2</a></li>
+					          		<li><a href="#">Blog 3</a></li>
+					          		<li><a href="#">Blog 4</a></li>
+					          		<li><a href="#">Separated link</a></li>
+					          		<li class="divider"></li>
+					          	</ul>
+					        </li>
+							<li><a href="#">Join</a></li>
+							<li><a href="#">Testimonials</a></li>
+							<li>
+								<div id="search">
+									<form class="navbar-form navbar-right" role="search">
+						      			<div class="form-group">
+						        		  <input type="text" class="form-control" placeholder="Search">
+						        		</div>
+						        		<button type="submit" class="btn btn-default">Submit</button>
+		      						</form>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>	
+		</div><!--End Nav-->
+			<div id="content">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 col-md-4">
+							<img src="img/banner_img.jpg" alt="">
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-4">
+							<span id="title_des"><h3>As a member of The Stock Playbook you will get:</h3></span>
+									<ul class="list-unstyled">
+										<li><i class="glyphicon glyphicon-ok tick"></i>Daily "live" videos with Dave's stock picks and trading commentary</li>
+										<li><i class="glyphicon glyphicon-ok tick"></i>Bonus videos detailing earnings plays, stocks under $10 and stocks making new highs</li>
+										<li><i class="glyphicon glyphicon-ok tick"></i>Daily detailed chart analysis of Dave's favorite investment ideas</li>
+										<li><i class="glyphicon glyphicon-ok tick"></i>Undiscovered gems just starting to hit the radars of professional money managers And Much More...
+										</li>
+									</ul>
+									<div id="signup" class="wrap">
+										<button class="btn btn-primary button" type="button">Signup Now</button>
+									</div>
+						</div>
+						<div id="module_login" class="col-xs-12 col-sm-4 col-md-4">
+							<div id="frm_login" class="row">
+								<div id="title_login" class="col-md-10">
+									<span >If you already are a Member with us,please login below</span>
+								</div>
+								<div class="col-md-2">
+									<img src="img/key1.jpg" alt="">
+								</div>
+										<form action="method" role="form">
+											<div class="formdk">
+												<label for="name">Username</label>
+												<input type="text" class="form-control" id="name" placeholder="Username">
+											</div>
+											<div class="formdk">
+												<label for="pwd">Password</label>
+												<input type="password" class="form-control" id="pwd" placeholder="Password">
+											</div>
+											<div class="checkbox">
+												<label><input type="checkbox">Remember me</label>
+											</div>
+											<button type="submit" class="btn btn-default">Submit</button>
+										</form>	
 							</div>
-							<div class="formdk">
-								<label for="pwd">Password</label>
-								<input type="text" class="form-control" id="pwd" placeholder="Password">
-							</div>
-							<div class="checkbox">
-								<label><input type="checkbox">Remember me</label>
-							</div>
-							<button type="submit" class="btn btn-default">Submit</button>
-						</form>	
-		</div>
-		<div id="content">
-			<div class="container">
-				<table class="table table-stripes table-bordered">
-					<thead>
-						<tr>
-							<th>First Name</th>
-							<th>Last Name</th>
-							<th>Email</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Jack</td>
-							<td>Rose</td>
-							<td>Jose</td>
-						</tr>
-						<tr>
-							<td>William</td>
-							<td>Peter</td>
-							<td>Hart</td>
-						</tr>
-						<tr>
-							<td>jack@gmail.com</td>
-							<td>rose@gmail.com</td>
-							<td>jose@gmail.com</td>
-						</tr>
-					</tbody>
-					
-				</table>
+						</div>
+					</div>
+				</div>
+			</div><!-- End Content-->
+			<div id="main">
+				<h3>This is main</h3>
 			</div>
-		</div><!-- End Content-->
 		<footer>
 			
 		</footer>
-		<!--<div class="wrapper">
-			<div class="container">
-				<div class="row">
-					<div id="header">
-						<div class="wrap">
-							<div class="container">
-								<div class="row">
-									<div class="logo">
-									<h3>This is logo</h3>
-									</div>
-									<div class="menu">
-										<h3>This is menu</h3>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> End Header
-					<div id="main">
-						<div class="content1">
-						<h3>This is content 1</h3>
-						</div>
-						<div class="content2">
-							<h3>This is content 2</h3>
-						</div>
-					</div><!--End Main
-					<div id="footer">
-						<h3>This is footer</h3>
-					</div><!--End Footer
-				</div>
-			</div>
-		</div>-->
 	</body>
 </html>
