@@ -1,5 +1,6 @@
 <html>
 <head>
+    <title>Bai 4.2</title>
 </head>
 <body>
 <form action="bai4.2.php" method="get">
@@ -29,7 +30,7 @@ if (isset($_GET['a']) && isset($_GET['b']) && isset($_GET['c'])){
             echo " x = " . (-$b / 2 * $a);
         } else { echo "Vui lòng nhập lại";}
     } else {
-        echo "Phương trình có 2 nghiệm "; 
+        echo "Phương trình có 2 nghiệm ";
         echo " x1 = ".(-$b-sqrt($delta))/(2*$a);
         echo " x2 = ".(-$b+sqrt($delta))/(2*$a);
     }

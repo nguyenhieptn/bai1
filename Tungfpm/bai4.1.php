@@ -13,9 +13,7 @@
 <?php
 if (isset($_GET['name'])) {$ten = $_GET['name'];}
 else {$ten = null;}
-if (isset($_POST)) {
 
-}
 if ($ten <> null)
     {echo "Xin chao ".$ten."! Chuc ban 1 ngay tot lanh.";}
 ?>
