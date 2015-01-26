@@ -1,0 +1,43 @@
+.wrapper{
+	width: 960px;
+}
+header{
+	background-color: #0099ff;
+	color: white;
+	padding:5px;
+	text-align: center;
+}
+#main_menu #left{
+	background-color: #006766;
+	color: #fff;
+	float: left;
+	height: 500px;
+	padding: 5px;
+	text-align: center;
+	width: 20%;
+}
+#main_menu #main{
+	background-color: #fff;
+	color: #f;
+	float: left;
+	padding-top: 200px;
+	height:500px;
+	width: 57%;
+	padding: 5px;
+	text-align: center;
+}
+#main_menu #right{
+	background-color: #006766;
+	color: #fff;
+	float: right;
+	height: 500px;
+	padding: 5px;
+	text-align: center;
+	width: 20%;
+}
+footer{
+	clear: both;
+	background-color: #333333;
+	height: 100px;
+	color: #fff;
+}

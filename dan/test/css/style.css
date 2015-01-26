@@ -1,12 +1,45 @@
+.wrap{
+	width: 100%;
+	clear: both;
+}
 body{
-	
+	font-family:'Santony', sans-serif;
 }
-#nav{
-	background-color: #6ba3d6;
+/*HEADER*/
+#main_logo{
+
 }
-nav .navbar{
-	background-color: #ff9e3f;
+#sub_logo ul li{
+	float: left;
+	margin-top: 70px;
 }
+/*NAVIGATION BAR*/
+
+#nav_bar{
+	background-color: #ffa71d;
+	position: relative; z-index: 10;
+}
+#nav div.row{
+	background:#ffa71d;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+#nav_bar li:last-child{
+	border-right: 0px;
+}
+#btn_login{
+	padding left: 0px;
+	padding-right: 30px;
+	background-color: #4683ae;
+}
+#btn_login button{
+	padding: 10px 10px 10px 10px;
+	background-color: #4683ae;
+}
+
 #content{
 	background-color: #6ba3d6;
 	color: #fff;
@@ -23,11 +56,21 @@ nav .navbar{
 	padding-right: 10px;
 }
 }
+
+#frm_login .tit_log{
+	background-color: #4683ae;
+}
 form{
 	width: 250px;
 	margin: 10px;
 	border: 1px;
 	background-color: #fff;
+}
+form #name{
+	background-image: url("img/key1.jpg");
+}
+form #button_login .wrap{
+	background-color: #4683ae;
 }
 #title_login{
 	background-color: #4683ae;
