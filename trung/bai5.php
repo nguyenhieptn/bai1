@@ -40,7 +40,7 @@
 		}else {
 			echo "a or b phải là số";
 		}
-	}else echo "a or b không được để trống"
+	}else echo "a or b không được để trống";
 	
 ?>
 </html>
