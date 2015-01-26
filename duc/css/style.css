@@ -110,6 +110,7 @@ section#banner .head-login{
 	background: #fff;
 	border-radius: 10px;
 	padding: 0 14px 15px;
+	margin-left:-15px;
 }
 
 section#banner .form-login .user{
