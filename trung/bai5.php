@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
 <body>
 <form action="bai5.php" method="get">
 			<label for="name">a:</label>
