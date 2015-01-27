@@ -1,5 +1,5 @@
 <?php 
-	$data = $_GET['data'];
+	$data = $_POST['data'];
 	$array = explode("\n", $data);
 	echo count($array)."<br>";
 	for ($i=0; $i < count($array); $i++) { 

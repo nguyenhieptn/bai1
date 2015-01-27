@@ -1,0 +1,54 @@
+.wrapper
+{
+	width:1000px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header
+{
+	height: 100px;
+	background-color: gray;
+}
+.content
+{
+	height: 400px;
+	background-color: blue;
+}
+.footer
+{
+	height:100px;
+	background-color: yellow;
+}
+
+.tieude
+{
+	padding-top: 40px;
+	font-family:"Times New Roman", Times, serif;
+	text-transform: capitalize;
+
+}
+.noidung
+{
+	padding-top: 200px;
+	padding-left: 400px;
+	font-family:"Times New Roman", Times, serif;
+	text-transform : uppercase;
+	color:white;
+
+}
+.ketthuc
+{
+	padding:40px 0px 0px 0px;
+	font-family:"Times New Roman", Times, serif;
+	text-transform: lowercase;
+	float:left;
+	margin-right: 5px;
+
+}
+.dinhdangchu
+{
+	padding-top:40px;
+	text-transform : uppercase;
+	color:white;
+}
