@@ -1,0 +1,30 @@
+body{
+	background-color: #606060;
+	font-size: 62.5%;
+	font-family: 'Helvetica';
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.clear{
+	clear: both;
+}
+a img{
+	border: none;
+}
+#wrapper{
+	width: 800px;
+	margin: 20px auto;
+	border: 1px solid #fff;
+}
+#header{
+	width: auto;
+	height: 173px;
+	border-top: 5px solid #a83c18;
+}
