@@ -115,12 +115,12 @@ section#banner .head-login{
 
 section#banner .form-login .user{
 	padding-left:35px;
-background: url(../images/user.jpg) no-repeat;
+	background: url(../images/user.jpg) no-repeat;
 
 }
 section#banner .form-login .pass{
 	padding-left: 35px;
-background: url(../images/pass.jpg) no-repeat;
+	background: url(../images/pass.jpg) no-repeat;
 }
 .form-login{
 	border-radius: none;
@@ -204,12 +204,16 @@ footer .img{
 /*************tablet***************/
 @media (max-width:979px){
 	#main-nav ul li a{
-		padding:0px 11px;
+		padding: 0px 11px;
 	}
 }
 /**************phone****************/
 @media(max-width: 767px){
 	.row{margin-left:15px;margin-right:15px;}
+	#main-nav ul li a{
+		padding:10px 0px;
+		border-right: none;
+	}
 	.input-login{
 		padding:0px;
 	}
