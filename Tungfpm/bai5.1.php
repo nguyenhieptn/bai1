@@ -16,7 +16,6 @@
 <form action="bai5.1.php" method="get">
     <label for="so1">Nhập số thứ nhất:</label>
     <input type="text" name="s1" /> <br />
-
     <div id ="pheptinh">
     <select name ="pheptinh">
         <option value="add">+</option>
