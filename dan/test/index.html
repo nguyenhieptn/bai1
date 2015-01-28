@@ -12,13 +12,13 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<div class="wrapper">
+		<div id="wrapper">
 			<div id="header">
 				<div class="container">
 					<div class="row">
 						<div id="main_logo" class="col-xs-12 col-sm-8 col-md-9 pull-left">
-							<img src="img/logo.jpg" alt="">
-							<span><b>Your Stock Market Coach</b></span>
+							<img class="left" src="img/logo.jpg" alt="">
+							<span class="left" id="Coach">Your Stock Market Coach</span>
 						</div>
 						<div id="sub_logo" class="col-xs-12 col-sm-4 col-md-3 pull-right">
 							<ul class="list-unstyled">
@@ -75,49 +75,51 @@
 				<div id="content">
 					<div class="container">
 						<div class="row">
-							<div class="col-xs-12 col-sm-4 col-md-4">
-								<img src="img/banner_img.jpg" alt="">
-							</div>
-							<div class="col-xs-12 col-sm-4 col-md-4">
-								<span id="title_des"><h3>As a member of The Stock Playbook you will get:</h3></span>
-										<ul class="list-unstyled">
-											<li><i class="glyphicon glyphicon-ok tick"></i>Daily "live" videos with Dave's stock picks and trading commentary</li>
-											<li><i class="glyphicon glyphicon-ok tick"></i>Bonus videos detailing earnings plays, stocks under $10 and stocks making new highs</li>
-											<li><i class="glyphicon glyphicon-ok tick"></i>Daily detailed chart analysis of Dave's favorite investment ideas</li>
-											<li><i class="glyphicon glyphicon-ok tick"></i>Undiscovered gems just starting to hit the radars of professional money managers And Much More...
-											</li>
-										</ul>
-										<div id="signup" class="wrap">
-											<button class="btn btn-primary button" type="button">Signup Now</button>
-										</div>
-							</div>
-							<div id="module_login" class="col-xs-12 col-sm-4 col-md-4">
-								<div id="frm_login" class="row">
-									<div class="tit_log">
-										<div id="title_login" class="col-md-10">
-											<span >If you already are a Member with us,please login below</span>
-										</div>
-										<div class="col-md-2">
-											<img src="img/key1.jpg" alt="">
-										</div>
+							<div id="inner" class="col-md-12">
+								<div class="row">
+									<div class="col-xs-12 col-sm-4 col-md-4">
+										<img src="img/content.jpg" alt=""/>
 									</div>
-									<div class="input_login">
-										<div class="wrap">
-											<div id="user">
-												<input type="text" class="form-control" id="name" placeholder="Username or email">
+									<div class="col-xs-12 col-sm-4 col-md-4">
+										<span id="title_des">As a member of The Stock Playbook you will get:</span>
+											<ul class="list-unstyled">
+												<li><i class="glyphicon glyphicon-ok tick"></i>Daily "live" videos with Dave's stock picks and trading commentary</li>
+												<li><i class="glyphicon glyphicon-ok tick"></i>Bonus videos detailing earnings plays, stocks under $10 and stocks making new highs</li>
+												<li><i class="glyphicon glyphicon-ok tick"></i>Daily detailed chart analysis of Dave's favorite investment ideas</li>
+												<li><i class="glyphicon glyphicon-ok tick"></i>Undiscovered gems just starting to hit the radars of professional money managers And Much More...
+												</li>
+											</ul>
+											<div id="signup" class="wrap">
+												<button class="btn btn-primary button" type="button">Signup Now</button>
+											</div>
+									</div>
+									<div id="module_login" class="col-xs-12 col-sm-4 col-md-4">
+										<div id="note" class="row">
+											<div id="title_login" class="col-md-10">
+												<span >If you already are a Member with us,please login below</span>
+											</div>
+											<div class="col-md-2">
+												<img src="img/key1.jpg" alt="">
 											</div>
 										</div>
-										<div class="wrap">
-											<div id="pass">
-												<input type="password" class="form-control" id="pwd" placeholder="Password">
+										<div class="input_login">
+											<div class="wrap">
+												<div id="user">
+													<input type="text" class="form-control" id="name" placeholder="Username or email">
+												</div>
+											</div>
+											<div class="wrap">
+												<div id="pass">
+													<input type="password" class="form-control" id="pwd" placeholder="Password">
+												</div>
+											</div>
+											<div id="button_login" class="wrap">
+												<button type="submit"><img src="img/bglogin.jpg" alt="">Log Me In</button>
+											</div>
+											<div id="forget" class="wrap">
+												<span>Forget Login ?</span>
 											</div>
 										</div>
-									</div>
-									<div id="button_login" class="wrap">
-										<button type="submit"><img src="img/bglogin.jpg" alt="">Log Me In</button>
-									</div>
-									<div id="forget" class="wrap">
-										<span>Forget Login ?</span>
 									</div>
 								</div>
 							</div>
@@ -129,18 +131,20 @@
 						<div class="row">
 							<div id="video" class="left">
 								<div class="col-md-7">
-									<span id="title_video" class="wrap"><h4>Want to see a Sample of a Nightly Video?</h4></span>
+									<div id="inner-video" class="wrap">
+										<span>Want to see a Sample of a Nightly Video? </span>
+									</div>
 									<img src="img/video.jpg" alt=""/>
 								</div>
 								<div id="des_video" class="col-md-5">
-									<span><h4>What Can I Expect?</h4></span>
+									<span>What Can I Expect?</span>
 										<p>The Stock Playbook provides the individual investor with a daily briefing of the general markets and daily stock market ideas, either long or short depending on the overall trend of the market. Dave Dispennette, CEO of the Stock Playbook has over 20 years experience navigating the stock market. He has spent the past seven years managing his own portfolio, as well as the portfolios of friends and family.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div><!--End Main-->
-			<div id="footer" class="col-md-12">
+			<div id="footer">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
