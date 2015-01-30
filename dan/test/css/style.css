@@ -2,38 +2,39 @@
 	width: 100%;
 	clear: both;
 }
-.left{
-	float: left;
-}
 body{
-	font-family:'Santony', sans-serif;
+	font-family:'Sintony', sans-serif;
 }
 /*HEADER*/
 #main_logo{
-	padding: 40px 0px 5px 0px;
+	margin:10px 0px 0px 0px;
 }
-#Coach{
-	margin: 96px 0px 0px 4px;
+#main_logo img{
+	margin:23px 0px 0px 0px;
 }
-#sub_logo{
-	padding: 53px 0px 5px 0px;
+#main_logo span.slogan{
+	margin:120px 0px 0px 4px;
+	font-size: 16px;
 }
-#sub_logo ul li{
+#icon{
+	padding:53px 0px 5px 0px;
+}
+#icon ul.icons li{
 	float: left;
-	margin-top: 70px;
+	margin-top:50px;
 }
 /*NAVIGATION BAR*/
-
-#nav_bar ul{
-	padding: 19px 0px;
+nav.collapse{
+	padding-top:10px;
 }
-#nav_bar li a{
-	padding: 0 15px;
-	border-right: 2px dotted #fff;
-	color:#fff;
+#nav nav.navbar{
+	background: #ffa71d!important;
+	border:0px!important;
+	box-shadow:0 0px 0px rgba(0,0,0,0.065);
+	margin-bottom:0px;
 }
 #nav_bar{
-	position: relative; z-index: 10;
+	position:relative;z-index:10;
 }
 #nav_bar div.row{
 	background:#ffa71d;
@@ -43,43 +44,44 @@ body{
     -o-border-radius: 5px;
     border-radius: 5px;
 }
-nav.collapse{
-	padding-top: 10px;
+#nav_bar ul{
+	padding:19px 0px;
 }
-.navbar{
-	background: #ffa71d!important;
-	border: 0px!important;
-	box-shadow: 0 0px 0px rgba(0,0,0,0.065);
-	margin-bottom:0px;
+#nav_bar li a{
+	padding:0 15px;
+	border-right: 2px dotted #fff;
+	color:#fff;
 }
-#nav_bar li:last-child{
+#nav_bar ul li:last-child{
 	border-right: 0px;
 }
+
 #btn_login{
-	padding: 5px 30px 5px 10px;
+	padding-left:0px;
+	padding-right: 30px;
 }
-#btn_login button{
+button{
 	font-weight:bold;
 	width:100%;
 	background:#4683ae;
 	line-height:36px;
-	box-shadow: 2px 1px 1px #9f751c;
+	box-shadow:2px 1px 1px #9f751c;
 	margin-top:7px;
 	margin-bottom:7px;
 	
 }
 #btn_login button{
-	background-color: #4280ac;
-	color: #fff;
+	background-color:#4280ac;
+	color:#fff;
 }
 button.navbar-toggle{
 	background-color: #4280ac;
 }
 nav .navbar-toggle .icon-bar {
-background-color: #fff;
+background-color:#fff!important;
 }
 .navbar-collapse.in {
-	overflow-y: visible;
+	overflow-y: visible!important;
 }
 /* CONTENT*/
 #content{
@@ -91,31 +93,31 @@ background-color: #fff;
 	background:url(../images/banner_img.jpg) no-repeat;
 	background-size: cover;
 	padding-top:14px;
-	padding-bottom:65px;
+	padding-bottom:64px;
 	color:#fff;
 }
 #content span#title_des{
-	line-height:30px;
-	font-size:23px;
+	line-height:32px;
+	font-size:22px;
 	color:#fff;
 }
 #content ul{
 	margin:25px 0 15px 0!important;
 	padding-left:0px;
 }
-#content li {
+#content ul li {
 display:inline-block;
 padding: 0 0 10px 23px;
 line-height: 20px;
-background: url(../images/libg1.png)no-repeat;
+/*background: url(../images/libg1.png)no-repeat;*/
 background-position:0 5px;
 }
-#signup button{
+#signup button.btn{
 	box-shadow: 2px 1px 1px #437385;
 	margin: 0 0 20px 23px;
 	width: 50%;
 	background:#ffa71d;
-	line-height: 36px;
+	/*line-height: 36px;*/
 }
 #module_login{
 	background:#fff;
@@ -138,7 +140,7 @@ background-position:0 5px;
     border-radius: 5px 5px 0 0;
 }
 .wrap{
-	margin: 30px 50px 5px 15px;
+	margin: -10px 50px 5px 15px;
 }
 #title_login{
 	padding-left:29px;
@@ -153,8 +155,8 @@ background-position:0 5px;
 	border:0px;
 	background-color:#f1f1f1;
 	border: 0px;
-	box-shadow: 0 0;
-	border-radius:0;
+	box-shadow: 0 0!important;
+	border-radius:0!important;
 }
 #user {
 	padding-left:36px;
@@ -198,12 +200,14 @@ ul li i.glyphicon-ok{
 	padding-bottom:34px;
 }
 #video{
-	border-top:1px solid #6b8ebb;
-	border-right:1px solid #e3e1e1;
-	border-left:1px solid #e3e1e1;
-	border-bottom:2px solid #e3e1e1;
+	border-color: #6b8ebb #e3e1e1 #e3e1e1 #e3e1e1;
+	border-width: 1px 1px 1px 2px;
 	padding:57px 40px 62px 50px;
 }
+#video div.container{
+	padding-top: 50px;
+}
+
 #des_video {
 	padding-top:105px;
 }
@@ -234,28 +238,60 @@ ul li i.glyphicon-ok{
 }
 
 /* MEDIA */
+/*desktop*/
 @media (min-width: 1200px) {
-	
-}
-@media (max-width: 990px){
+	.container{
+		max-width: 970px;
+	}
 
 }
+/* tablets*/
+@media (max-width: 979px){
+	#nav_bar li a{
+		padding:0px 11px;
+	}
+}
+/*phones*/
 @media (max-width: 767px) {
-	
+	#icon{
+		padding:0px 0px 5px 5px;
+	}
+	.row{
+		margin-left:15px;
+		margin-right:15px;
+	}
+	#icon div.right{
+		float:left;
+	}
+	#icon {
+		padding: 20px 0 15px 0;
+	}
+	#nav_bar li a{
+	border-right: 0;
+	padding: 10px 17px;
+	}
+	.navbar-toggle{
+		margin:15px 0!important;
+	}
+	#module_login{padding:0px;}
+	#title_login{margin:0px;}
+	#main div#inner-video {
+		width: 100%;
+	}
+	#video img{width:100%;}
+}
+
 }
 @media (max-width: 480px) {
-	#Coach{
-		margin-top: 10px;
-	}
-	#sub_logo{
-		padding: 10px 10px 10px 10px;
+	#main_logo span.slogan{
+		margin: 10px 0px 0px 4px;
 	}
 	#sub_logo ul li{
 		padding: 10px 0px 10px 0px;
 		margin: 0px 0px;
 	}
 	#btn_login{
-		
+		padding-right: 10px;
 	}
 
 }
