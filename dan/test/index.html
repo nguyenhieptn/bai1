@@ -3,9 +3,11 @@
 		<title>The Stock School</title>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-1.11.2.min.js"></script>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="css/reset.css" type="text/css">
 		<link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
@@ -18,10 +20,10 @@
 							<span class="pull-left slogan">Your Stock Market Coach</span>
 						</div>
 						<div id="icon" class="col-xs-12 col-sm-4 col-md-3 pull-right">
-							<ul class="list-unstyled icons">
-									<li><img src="img/fb.png" alt=""></li>
-									<li><img src="img/tw.png" alt=""></li>
-									<li><img src="img/youtube.png" alt=""></li>
+							<ul class="list-unstyled">
+								<li class="icons"><img src="img/fb.jpg" alt=""></li>
+								<li class="icons"><img src="img/tw.jpg" alt=""></li>
+								<li id="yt" class="icons"><span>You Tube</span></li>
 							</ul>
 						</div>
 					</div>
@@ -68,10 +70,7 @@
 						<div class="row">
 							<div id="inner" class="col-md-12">
 								<div class="row">
-									<div class="col-xs-12 col-sm-4 col-md-4">
-										<img src="img/content.jpg" alt=""/>
-									</div>
-									<div class="col-xs-12 col-sm-4 col-md-4">
+									<div class="col-xs-12 col-sm-4 col-md-4 col-md-offset-4">
 										<span id="title_des">As a member of The Stock Playbook you will get:</span>
 											<ul class="list-unstyled">
 												<li><i class="glyphicon glyphicon-ok tick"></i>Daily "live" videos with Dave's stock picks and trading commentary</li>
@@ -84,7 +83,7 @@
 												<button class="btn btn-primary button" type="button">Signup Now</button>
 											</div>
 									</div>
-									<div id="module_login" class="col-xs-12 col-sm-4 col-md-4">
+									<div id="module_login" class="col-xs-12 col-sm-4 col-md-4 module_login">
 										<div id="note" class="row">
 											<div id="title_login" class="col-md-10">
 												<span >If you already are a Member with us,please login below</span>
@@ -93,7 +92,7 @@
 												<img src="img/key1.jpg" alt="">
 											</div>
 										</div>
-										<div class="input_login">
+										<div id="input_login">
 											<div class="wrap">
 												<div id="user">
 													<input type="text" class="form-control" id="name" placeholder="Username or email">
@@ -104,7 +103,7 @@
 													<input type="password" class="form-control" id="pwd" placeholder="Password">
 												</div>
 											</div>
-											<div id="button_login" class="wrap">
+											<div id="button_login">
 												<button type="submit"><img src="img/bglogin.jpg" alt="">Log Me In</button>
 											</div>
 											<div id="forget">
@@ -139,14 +138,14 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<div id="img_footer" class="wrap">
+							<div id="img_footer" class="wrapp">
 								<img src="img/buffalo.jpg" alt="">
 							</div>
-							<div id="copyright" class="wrap">
+							<div id="copyright" class="wrapp">
 								<span>2008-2013 Copyright. All Rights Reserved. The Stock Playbook</span>
 							</div>
-							<div id="footer_text" class="wrap">
-								<span>How to training the Playbook ? Come with us and get everything ! </span>
+							<div id="footer_text" class="wrapp">
+								<span>How The Playbook Works Avoiding Losses Learn From the Expert Blog Big Returns Disclaimer Contact Us Sign up Today!</span>
 							</div>
 						</div>
 					</div>
