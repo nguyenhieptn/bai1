@@ -1,0 +1,23 @@
+/* CSS Document */
+#text{
+	float:left;
+	width: 10%;
+	margin-left: 20%;
+	margin-top: 10px;
+}
+
+#box{
+	float:right;
+	width: 45%;
+	margin-right: 25%;
+	margin-top: 10px;
+}
+
+.input{
+	margin-bottom: 10px;
+}
+#pp{
+	max-width: 200px;
+	margin-bottom: 12px;
+	padding-bottom:0px;
+}
