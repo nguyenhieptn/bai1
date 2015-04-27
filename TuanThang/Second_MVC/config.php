@@ -1,0 +1,12 @@
+<?php
+//http
+define("HTTP_SERVER",'http://localhost/LEARNING/PHP-OOP/bai1/TuanThang/Second_MVC/');
+//DIR
+define('DIR_APPLICATION','app/');
+define('DIR_ADMIN','admin/');
+define('DIR_THEME','default/');
+//DB
+define("DB_HOST","localhost");
+define("DB_NAME","mvc_sp2");
+define("DB_USER","root");
+define("DB_PASSWORD","");

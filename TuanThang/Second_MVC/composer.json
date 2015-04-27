@@ -1,0 +1,8 @@
+{
+	"autoload":{
+		"classmap":[
+			"system/libs",
+			"system/database"
+		]
+	}
+}
