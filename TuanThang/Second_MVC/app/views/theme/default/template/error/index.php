@@ -1,1 +1,0 @@
-<center>This is error page</center>

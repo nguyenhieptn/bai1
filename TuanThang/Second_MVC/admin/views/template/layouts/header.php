@@ -17,17 +17,10 @@
     <body>
     <div class="header">
         <div class="logo">Header</div><br>
-        <a href="<?php echo HTTP_SERVER; ?>index">Index</a>  <a href="<?php echo HTTP_SERVER; ?>help">Help</a>
-        <?php if(Session::get("loggedIn")!=false): ?>
-             <a href="<?php echo HTTP_SERVER; ?>wall/View">My Wall</a>
-             <a href="<?php echo HTTP_SERVER; ?>account/Logout">Log out</a>
-            <?php if(Session::get("loggedIn")=="admin"): ?>
              <a href="<?php echo HTTP_SERVER; ?>admin/index.php?url=Dashboard/index" class="special">Administrator</a>
-            <?php endif ?>
-        <?php else: ?>
-             <a href="<?php echo HTTP_SERVER; ?>account/Login">Login</a>
-             <a href="<?php echo HTTP_SERVER; ?>account/Register">Register</a>
-        <?php endif ?>
+             <a href="<?php echo HTTP_SERVER; ?>admin/index.php?url=Member/Manage" class="special">Members</a>
+             <a href="<?php echo HTTP_SERVER; ?>admin/index.php?url=Dashboard/index" class="special">Notes</a>
+             <a href="<?php echo HTTP_SERVER; ?>account/Logout">Log out</a>
     </div>
     <div class="maincontainer">
 

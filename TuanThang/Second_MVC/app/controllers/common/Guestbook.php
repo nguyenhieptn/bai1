@@ -1,5 +1,5 @@
 <?php
-Class Index extends Controller
+Class GuestBook extends Controller
 {
     public function __construct()
     {
@@ -7,6 +7,6 @@ Class Index extends Controller
     }
     public function index()
     {
-        $this->view->render(DIR_APPLICATION."views/theme/".DIR_THEME,"index/index");
+        $this->view->render(DIR_APPLICATION."views/theme/".DIR_THEME,"common/Guestbook");
     }
 }

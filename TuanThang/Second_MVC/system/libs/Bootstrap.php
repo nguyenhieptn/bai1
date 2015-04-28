@@ -10,6 +10,7 @@ class Bootstrap
          * Decision the file name will be require
          * if the file name not exists, redirect to index
          */
+        echo "<b>URL:</b> ".$_GET['url']."<br>";
         if(isset($_GET['url'])) 
         {
         /*
@@ -18,21 +19,27 @@ class Bootstrap
          * */
             $url = rtrim($_GET['url'],"/");
             $url = explode("/", $url);
-            $file_name = $url[0];
+            $folder = $url[0];
+            $file_name = (isset($url[1]))?$url[1]:"";
         }else
         {
-             $file_name = 'Index';
+            $folder = "common";
+            $file_name = 'Guestbook';
         }
-
 
         /*
          * Verify the file name exists to require it or refer to error class
          */
-        $destination = $dir."controllers/" . $file_name . ".php";
-        if (file_exists($destination) && is_string($file_name) && preg_match('/^[a-z_]+$/i',$file_name)) {
+        $destination = $dir."controllers/" . $folder ."/". $file_name . ".php";
+        echo "<b>controller destination:</b> ".$destination."<br>";
+        if (file_exists($destination) && is_string($file_name)
+            && preg_match('/^[a-z_]+$/i',$file_name) && $file_name!="")
+        {
             require_once $destination;
-        } else {
-            require_once $dir."controllers/error.php";
+        }
+        else
+        {
+            require_once $dir."controllers/common/error.php";
             $error = new Error();
             return false;
         }
@@ -41,11 +48,12 @@ class Bootstrap
          * refer to method defined in  $file_name  */
 
         $controller = new $file_name;
-        $controller->loadModel($file_name);
-        if (isset($url[2])) {
-            $controller->{$url[1]}($url[2]);
-        } else if (isset($url[1])) {
-            $controller->{$url[1]}();
+        echo "<b>Controller object define:</b> ".$file_name."<br>";
+        $controller->loadModel($dir,$folder,$file_name);
+        if (isset($url[3])) {
+            $controller->{$url[2]}($url[3]);
+        } else if (isset($url[2])) {
+            $controller->{$url[2]}();
         } else
         {
             $controller->index();
