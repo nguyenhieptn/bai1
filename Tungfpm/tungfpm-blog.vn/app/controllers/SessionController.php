@@ -25,7 +25,7 @@ class SessionController extends BaseController{
 
         if($valid->passes()){
             if(Auth::attempt($data)){
-                Redirect::to('/');
+                return Redirect::to('/');
             } else {
                 return Redirect::back()
                     -> withFlashMessage('Thông tin đăng nhập không hợp lệ');

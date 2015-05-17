@@ -16,7 +16,6 @@ Route::get('/', [
     'uses' => 'HomeController@index'
 ]);
 
-
 Route::get('login', [
     'as' => 'login',
     'uses' => 'SessionsController@create',
@@ -34,4 +33,9 @@ Route::resource('posts', 'PostsController');
 Route::get('/post/{slug}',[
     'as'=>'post-show',
     'uses'=>'PostController@getShow',
+]);
+
+Route::get('about', [
+    'as' => 'about',
+    'uses' => 'MainController@about',
 ]);

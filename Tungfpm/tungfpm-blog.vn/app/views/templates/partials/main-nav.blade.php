@@ -4,10 +4,9 @@
         <h3 class="text-muted">Tungfpm 's Blog</h3>
         <nav>
           <ul class="nav nav-justified">
-            <li class="active">{{ link_to_route('home', 'Home') }}</li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About</a></li>
+            <li class="#">{{ link_to_route('home', 'Home') }}</li>
+            <li><a href="">Projects</a></li>
+            <li class="#">{{ link_to_route('about', 'About') }}</li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>

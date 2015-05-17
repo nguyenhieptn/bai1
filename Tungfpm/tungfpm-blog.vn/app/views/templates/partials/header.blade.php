@@ -9,6 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
+    <link rel="icon" href="{{ URL::to('/assets/images/heart.png')}}">
     <title> @yield('title') | Blog</title>
 
     <!-- Bootstrap core CSS -->
@@ -16,6 +17,7 @@
 
     <!-- Custom styles for this template -->
     <link href="{{ URL::to('assets/css/justified-nav.css') }}" rel="stylesheet">
+
 
   </head>
 

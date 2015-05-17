@@ -1,5 +1,5 @@
 @extends('layouts.scaffold')
-
+@section('title')All Posts - Tungfpm 's Blog @stop
 @section('main')
 
 <h1>All Posts</h1>
